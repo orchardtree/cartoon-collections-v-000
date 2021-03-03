@@ -1,3 +1,4 @@
+require 'pry'
 def roll_call_dwarves(dwarves) # code an argument here
   # Your code here
   dwarves.each_with_index do |dwarf, index|
@@ -14,7 +15,10 @@ end
 
 def long_planeteer_calls(calls)# code an argument here
   # Your code here
-  calls.include?("test")
+  calls.each do |call|
+    test = call.length
+    binding.pry
+  end
 end
 
 def find_the_cheese# code an argument here
