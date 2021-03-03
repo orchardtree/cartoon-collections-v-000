@@ -19,7 +19,7 @@ def long_planeteer_calls(calls)# code an argument here
     if call.length > 4
       test = true
     end
-    true
+    test
   end
 end
 
